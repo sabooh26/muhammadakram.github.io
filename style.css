@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+.landing{
+  background:url(/Images/showcase2.jpeg);
+  width: 100%;
+  background-repeat: repeat-x;
+  height: 100%;
+}
+.navbar{
+ background-color: rgba(0, 0, 0, 0.671);
+}
+.toggle{
+  display: none;
+}
+
+.ul-desktop{
+  list-style: none;
+  padding: 0;
+  margin:0;
+  display: flex;
+  
+  /* align-items: left; */
+}
+
+.logo{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  align-items: left;
+}
+.menu-item{
+ 
+}
+.ul-desktop  a{
+  /* flex: 1 1 0; */
+  margin-right: auto;
+  display: block;
+  padding: 10px;
+  color: #f2f2f2;
+}
+.ul-desktop a:hover{
+  text-decoration: none;
+  color:gray;
+}
+
+@media (max-width: 650px){
+  .ul-desktop{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    display: none;
+  }
+  .toggle{
+    display: block;
+  }
+}
