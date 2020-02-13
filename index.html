@@ -1,73 +1,131 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <title>Document</title>
 </head>
 <body>
-  <main class="landing">
-    <nav class="navbar">
-      <!-- <div>
-        <a href="#" id="toggle-switch" class="toggle"><i class="fas fa-bars"></i></a>
-      </div> -->
-          <ul class="ul-desktop">
-            <li><a href="index.html" class="logo">Muhammad Akram</a></li>
-            <li class="menu-item"><a href="#">Home</a></li>
-            <li class="menu-item"><a href="#">About Me</a></li>
-            <li class="menu-item"><a href="#">Projects</a></li>
-            <li class="menu-item"><a href="#">Contact</a></li>
-            <li class="menu-item"><a href="github.com"><i class="fab fa-github"></i></a></li>
-            <li class="menu-item"><a href="linkedin.com"><i class="fab fa-linkedin"></i></a></li>
-          </ul> 
+ <header>
+    <section>
+      <div class="container alignment ">
+        <p class="display-5  text-center color">Hi, I am Muhammad and I am aspiring web devloper. My excitement and passion for technoligy and the web brings me closer to web development. </p>
+        <a href="#home" class="btn-success btn-lg myButton ">Find Me</a>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <img src="/muhammadakram.github.io/Images/cover.jpg" alt="" width="255" height="320" />
+      </div>
+      
+    </section>
+    
+ </header>
+ <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark  sticky-top my-nav">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="index.html">Muhammad Akram</a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a href="#home" class="nav-link">Me</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">Work</a>
+        </li>
+        <li class="nav-item">
+          <a href="#projects" class="nav-link">More</a>
         </li>
       </ul>
-    </nav>
-    <div class="showcase">
-      <div class="title">
-        <h1>I'm Muhammad,</h1> 
-        <h1>aspiring Web Developer</h1>
+    </div>
+  </nav>
+  <div class="container" data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+    <div id="home">
+      <h2 class="h2 text-center">Me</h2>
+      <div class="d-flex justify-content-around">
+        <div class="flex-item">
+          <img class="my-img"src="/muhammadakram.github.io/Images/js_logo.png" alt="javascript" width="200px" height="200px" style="opacity: 80%;">
+          <div class="container ratings text-center">
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle"></i>
+          </div>
+        </div>
+       
+        <div class="flex-item">
+          <img class="my-img"src= "/muhammadakram.github.io/Images/css_logo.png" alt='css' width="200px" height="200px" style="opacity: 70%;">
+          <div class="container ratings text-center">
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle"></i>
+          </div>
+        </div>
+        <div class="flex-item">
+          <img class="my-img"src= "/muhammadakram.github.io/Images/node_logo.png" alt='node' width="200px" height="200px" style="opacity: 90%;">
+          <div class="container ratings text-center">
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle"></i>
+            <i class="fa fa-circle"></i>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-around mt-5">
+        <div class="flex-item">
+          <img class="my-img"src="/muhammadakram.github.io/Images/react_logo.png" alt="javascript" width="200px" height="200px" style="opacity: 80%;">
+          <div class="container ratings text-center">
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle"></i>
+          </div>
+        </div>
+       
+        <div class="flex-item">
+          <img class="my-img"src= "/muhammadakram.github.io/Images/sql-logo.png" alt='css' width="200px" height="200px" style="opacity: 70%;">
+          <div class="container ratings text-center">
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle"></i>
+          </div>
+        </div>
+        <div class="flex-item">
+          <img class="my-img"src= "/muhammadakram.github.io/Images/bs-logo.jpg" alt='node' width="200px" height="200px" style="opacity: 90%;">
+          <div class="container ratings text-center">
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle" style="color: rgb(90, 231, 151);"></i>
+            <i class="fa fa-circle"></i>
+            <i class="fa fa-circle"></i>
+          </div>
+        </div>
       </div>
     </div>
-  </main>
-  <section id="about-me">
-    <div class="img-container">
-      <img src="sabooh.jpg" alt="me">
+    <div id="about">
+      <h2 class="h2 text-center">Work</h2>
+      <div class=" text-center project">
+        <h4 class="text-left ">Movie Directory: Vanilla JS</h3>
+        <video  controls src="/muhammadakram.github.io/Project Videos/Movie-Directory-Video.mov" width="900px" ></video>
+      </div>
     </div>
-    <div class="image-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In dolorem eveniet ipsam praesentium quaerat excepturi? Reiciendis, tempore, illo inventore recusandae consectetur ad assumenda sit similique magni quae ut voluptas nostrum!</div>
-  </section>
-  <section id="Projects">
-    <div class="column">
-      <img src="todo-list.jpg" alt="todo-list">
-      <p class="description">Todo List Vanilla JS</p>
-    </div>
-    <div class="column">
-      <img src="weather.jpg" alt="weather">
-      <p class="description">Weather App Vanilla JS</p>
-    </div>
-    <div class="column">
-      <img src="milan.jpg" alt="milan">
-      <p class="description">Milan Jewelers</p>
-    </div>
-  </section>
-  <section id="contact">
-    <div class="card-box">
-      <h3>Contact Details</h3>
-      <p>
-        Phone: 412-304-6263
-        <br>
-        Email: saboohakram26@gmail.com
-        
-      </p>
-    </div>
-  </section>
-  <footer>
-    <p>&copy 2019 Muhammad Akram</p>
-  </footer>
+  </div>
+  
 
-  <script src="main.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/80d21b331f.js"></script>
 </body>
 </html>
